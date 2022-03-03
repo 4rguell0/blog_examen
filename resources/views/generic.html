@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{$pblog->Titulo}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>{{$pblog->Titulo}}</h1>
+									</header>
+
+									<span class="image main"><img src="{{$pblog->Imagen}}" alt="" /></span>
+
+									<p></p>
+									<p></p>
+									<p></p>
+
+									<hr class="major" />
+
+									<p>{{$pblog->Parrafo1}}</p>
+									<p>{{$pblog->Parrafo2}}</p>
+									<p>{{$pblog->Parrafo3}}</p>
+									<p>{{$pblog->Parrafo4}}</p>
+									<p>{{$pblog->Parrafo5}}</p>
+									<p>{{$pblog->Parrafo6}}</p>
+									<p>{{$pblog->Parrafo7}}</p>
+									<p>{{$pblog->Parrafo8}}</p>
+									<p>{{$pblog->Parrafo9}}</p>
+									<p>{{$pblog->Parrafo10}}</p>
+									<p>{{$pblog->Parrafo11}}</p>
+									<p>{{$pblog->Parrafo12}}</p>
+									<p>{{$pblog->Parrafo13}}</p>
+									<p>{{$pblog->Parrafo14}}</p>
+									<p>{{$pblog->Parrafo15}}</p>
+									<p>{{$pblog->Parrafo16}}</p>
+									<p>{{$pblog->Parrafo17}}</p>
+									<p>{{$pblog->Parrafo18}}</p>
+									<p>{{$pblog->Parrafo19}}</p>
+									<p>{{$pblog->Parrafo20}}</p>
+									<p>{{$pblog->Parrafo21}}</p>
+									
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="{{route('vista.blog')}}">Inicio</a></li>
+										<!-- <span class="opener">Submenu</span> -->
+										<li><a href="{{route('mostrar.pub',$pblog['slug'])}}">Introduccion a la arquitectura cliente/servidor</a></li>
+										<li><a href="{{route('mostrar.pub',$pblog['slug'])}}">Componentes y caracteristicas del cliente/servidor</a></li>
+										<li><a href="{{route('mostrar.pub',$pblog['slug'])}}">Estrategias de reparto complejidad</a></li>
+										<li><a href="{{route('mostrar.pub',$pblog['slug'])}}">Modelos multinivel</a></li>
+										<li><a href="#">Modelos vista controlador</a></li>
+										<li><a href="#">Sockets</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>
